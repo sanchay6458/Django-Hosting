@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--qd4pk3=q2rsc)14c6+q6ihcglr=ct-k6m(lq&-%93^h4-4%wm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['sanchaysmart.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -124,7 +124,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
 
-STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles')) # New
+STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles')) #
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' # new
 
 # Default primary key field type
